@@ -3,7 +3,6 @@ import Home from "../components/Home"
 import About from "../components/About"
 import Dashboard from "../components/Dashboard"
 import CustomForm from "../components/CustomForm"
-import XFlowDemo from "../components/antv/XFlowDemo"
 const routeList: RouteObject[] = [
   {
     path: '/',
@@ -21,10 +20,6 @@ const routeList: RouteObject[] = [
     path: '/table',
     Component: CustomForm
   },
-  {
-    path:'/antv',
-    Component:XFlowDemo
-  }
 ]
 const renderRouter = () => {
   const element = useRoutes(routeList)

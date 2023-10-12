@@ -163,7 +163,7 @@ export default () => {
           editable={{
             type: 'multiple',
             editableKeys,
-            onValuesChange: (record, recordList) => {
+            onValuesChange: (_, recordList) => {
               setDataSource(recordList);
             },
             onChange: setEditableRowKeys,
