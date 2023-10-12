@@ -1,14 +1,13 @@
 import React, { useState } from 'react'
 import { UploadOutlined, UserOutlined, VideoCameraOutlined } from '@ant-design/icons';
 import { Layout, Menu } from 'antd';
-import { Link, Route, Routes, useLocation } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import Router from '../../router';
 import Home from '../Home';
 import About from '../About';
 const { Sider, Content, Footer } = Layout;
 const PageLayout: React.FC = () => {
   const [collapsed, setCollapsed] = useState(false);
-  const location = useLocation()
   const sideBar = [
     {
       icon: React.createElement(VideoCameraOutlined),

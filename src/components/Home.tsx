@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Select } from 'antd';
 //select 滚动
 function Home() {

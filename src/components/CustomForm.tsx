@@ -1,9 +1,7 @@
-import { Button, Input, Modal, notification } from 'antd';
+import { Button,notification } from 'antd';
 import { NotificationPlacement } from 'antd/es/notification/interface';
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import './index.less'
-import { CloseOutlined, EditOutlined, StarOutlined } from '@ant-design/icons';
-import Icon from '@ant-design/icons/lib/components/Icon';
 export default function CustomForm() {
   const [num,setNum] = useState<number>(0)
   const [flag,setFlag] = useState<boolean>(true)

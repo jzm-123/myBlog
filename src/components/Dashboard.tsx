@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import { Button, RadioChangeEvent } from 'antd';
-import { Cascader, Radio } from 'antd';
+import React from 'react';
 import styles from './index.module.less'
 import { ProTable } from '@ant-design/pro-components';
 const App: React.FC = () => {

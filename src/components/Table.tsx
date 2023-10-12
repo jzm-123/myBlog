@@ -1,5 +1,4 @@
 import { ProColumns, ProTable } from '@ant-design/pro-components'
-import React from 'react'
 import styles from './index.module.less'
 export default function () {
     const columns: ProColumns<any>[] = [
