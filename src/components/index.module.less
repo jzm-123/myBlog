@@ -1,0 +1,31 @@
+.edit-table {
+    :global {
+        .ant-table-cell {
+            min-width: max-content;
+        }
+    }
+}
+.children {
+    font-size: 45px;
+    border: 1px solid black;
+    color: bisque;
+}
+// .border-test:extend(.children) {
+//     background-color: aqua;
+// }
+.border-test {
+    .children();
+    background-color: aqua;
+}
+.custom-table {
+    :global {
+        .ant-pro-table-alert {
+            background-color: transparent;
+            margin-block-end: 1px;
+        }
+    }
+}
+.custom-second-table{
+    .custom-table();
+    margin-block-end: 45px;
+}
