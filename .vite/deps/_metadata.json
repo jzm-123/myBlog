@@ -1,0 +1,68 @@
+{
+  "hash": "69ce455e",
+  "browserHash": "d19154a9",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "b64591cc",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "04c38dda",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "a758faf4",
+      "needsInterop": true
+    },
+    "@ant-design/icons": {
+      "src": "../../node_modules/@ant-design/icons/es/index.js",
+      "file": "@ant-design_icons.js",
+      "fileHash": "dc8a0ad3",
+      "needsInterop": false
+    },
+    "antd": {
+      "src": "../../node_modules/antd/es/index.js",
+      "file": "antd.js",
+      "fileHash": "f8129de7",
+      "needsInterop": false
+    },
+    "react-router": {
+      "src": "../../node_modules/react-router/dist/index.js",
+      "file": "react-router.js",
+      "fileHash": "94d84c51",
+      "needsInterop": false
+    },
+    "@ant-design/pro-components": {
+      "src": "../../node_modules/@ant-design/pro-components/es/index.js",
+      "file": "@ant-design_pro-components.js",
+      "fileHash": "090a9471",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-TX4JFCSP": {
+      "file": "chunk-TX4JFCSP.js"
+    },
+    "chunk-OKCH4PWN": {
+      "file": "chunk-OKCH4PWN.js"
+    },
+    "chunk-VD3FMXHM": {
+      "file": "chunk-VD3FMXHM.js"
+    },
+    "chunk-W35RGOJH": {
+      "file": "chunk-W35RGOJH.js"
+    },
+    "chunk-3F2ZTZ6C": {
+      "file": "chunk-3F2ZTZ6C.js"
+    },
+    "chunk-2FATVHAI": {
+      "file": "chunk-2FATVHAI.js"
+    }
+  }
+}
